@@ -18,7 +18,9 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.0",
-        "jenssegers/agent": "*"
+        "jenssegers/agent": "*",
+        "illuminate/support": "^11.0",
+        "mobiledetect/mobiledetectlib": "*"
     },
     "autoload": {
         "psr-4": {
