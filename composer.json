@@ -39,5 +39,7 @@
                 "Language": "Akaunting\\Language\\Facade"
             }
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
