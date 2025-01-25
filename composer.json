@@ -18,7 +18,7 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.0",
-        "jenssegers/agent": "*",
+        "jenssegers/agent": "^3.0",
         "illuminate/support": "^11.0",
         "mobiledetect/mobiledetectlib": "*"
     },
