@@ -1,0 +1,41 @@
+{
+    "name": "akaunting/laravel-language",
+    "description": "Language switcher package for Laravel",
+    "keywords": [
+        "laravel",
+        "language",
+        "switcher"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Duliçi",
+            "email": "info@akaunting.com",
+            "homepage": "https://akaunting.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
+        "jenssegers/agent": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akaunting\\Language\\": "./src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akaunting\\Language\\Provider"
+            ],
+            "aliases": {
+                "Language": "Akaunting\\Language\\Facade"
+            }
+        }
+    }
+}
